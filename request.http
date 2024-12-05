@@ -1,0 +1,38 @@
+# Get All Tasks
+GET http://localhost:3000/api/v1/tasks
+###
+
+# Get A Single Task
+GET http://localhost:3000/api/v1/tasks/1
+###
+
+# Post Create A Task
+POST http://localhost:3000/api/v1/tasks/1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+###
+
+# Update A Task
+PUT http://localhost:3000/api/v1/tasks/1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+###
+
+# Delete A Task
+DELETE http://localhost:3000/api/v1/tasks/1
+###
+
+# Get A Single News
+GET http://localhost:3000/api/v1/news/2
+###
+
+
+
