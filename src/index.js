@@ -4,6 +4,7 @@ const news = require('../routes/news')
 const db = require('../db/connect')
 const app = express()
 const port = 3000
+const task = require('../models/task.model')
 
 // middleware
 app.use(express.json())

@@ -7,12 +7,13 @@ GET http://localhost:3000/api/v1/tasks/1
 ###
 
 # Post Create A Task
-POST http://localhost:3000/api/v1/tasks/1
+POST http://localhost:3000/api/v1/tasks
 content-type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "text": "second text",
+    "status": "",
+    "description": "This is second Test"
 }
 ###
 
